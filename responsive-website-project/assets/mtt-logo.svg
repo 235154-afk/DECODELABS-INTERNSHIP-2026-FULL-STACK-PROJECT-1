@@ -1,0 +1,62 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MTT Digital Studio Logo</title>
+  <desc id="desc">MTT logo with orange glow and circuit-style accents on a dark background.</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="0.5" cy="0.38" r="0.42">
+      <stop offset="0%" stop-color="#FF9A1F" stop-opacity="0.95"/>
+      <stop offset="32%" stop-color="#FF7A00" stop-opacity="0.5"/>
+      <stop offset="68%" stop-color="#FF5400" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FF5400" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurGlow" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 0.42 0 0 0  0 0 0 0 0  0 0 0 0.85 0"/>
+    </filter>
+    <linearGradient id="letterFill" x1="96" y1="154" x2="416" y2="368" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F1F1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#111111"/>
+  <circle cx="256" cy="238" r="160" fill="url(#bgGlow)" filter="url(#blurGlow)"/>
+  <g opacity="0.18" stroke="#FFFFFF" stroke-width="2">
+    <path d="M24 220H94"/>
+    <path d="M74 230H148"/>
+    <path d="M354 166H468"/>
+    <path d="M388 202H488"/>
+    <path d="M336 320H450"/>
+    <path d="M66 304H132"/>
+    <path d="M134 146H182"/>
+    <path d="M306 128H374"/>
+  </g>
+  <g stroke="#FF8A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#blurGlow)">
+    <path d="M36 220H94L116 198H156"/>
+    <path d="M72 232H142L164 210H230"/>
+    <path d="M286 150H356L378 128H442"/>
+    <path d="M314 178H404L430 204H476"/>
+    <path d="M78 330H144L162 312H210"/>
+    <path d="M288 324H354L378 300H430"/>
+    <circle cx="92" cy="232" r="5" fill="#FF8A00"/>
+    <circle cx="378" cy="128" r="5" fill="#FF8A00"/>
+    <circle cx="476" cy="204" r="5" fill="#FF8A00"/>
+    <circle cx="162" cy="312" r="5" fill="#FF8A00"/>
+    <circle cx="378" cy="300" r="5" fill="#FF8A00"/>
+    <circle cx="470" cy="170" r="8" fill="none" stroke="#FF8A00"/>
+    <circle cx="392" cy="214" r="6" fill="none" stroke="#FF8A00" opacity="0.85"/>
+  </g>
+  <g filter="url(#blurGlow)">
+    <path d="M98 170L170 384H220L256 286L292 384H342L414 170H364L316 306L268 170H240L192 306L144 170H98Z" fill="url(#letterFill)"/>
+    <path d="M180 170H234L268 248L246 306L180 170Z" fill="url(#letterFill)"/>
+    <path d="M288 170H414V214H360V384H312V214H288V170Z" fill="url(#letterFill)"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M100 176H136" stroke="#FF8A00" stroke-width="3" stroke-linecap="round"/>
+    <path d="M374 166H414" stroke="#FF8A00" stroke-width="3" stroke-linecap="round"/>
+    <path d="M242 154H278" stroke="#FF8A00" stroke-width="3" stroke-linecap="round"/>
+    <path d="M176 198H208" stroke="#FF8A00" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <circle cx="256" cy="240" r="24" fill="#FF8A00" opacity="0.5"/>
+  <circle cx="256" cy="240" r="84" stroke="#FF8A00" stroke-opacity="0.2" stroke-width="14"/>
+  <path d="M184 214L228 170" stroke="#FF8A00" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M286 170L330 214" stroke="#FF8A00" stroke-opacity="0.45" stroke-width="2"/>
+</svg>

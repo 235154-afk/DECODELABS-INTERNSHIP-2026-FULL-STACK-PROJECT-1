@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Talal Tariq | Full Stack Development Project 1</title>
+    <meta name="description" content="DecodeLabs Batch 2026 internship project: responsive website using semantic HTML, CSS Grid/Flexbox, and vanilla JavaScript.">
+    
+    <!-- Google Fonts for Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header: Branding and Wayfinding -->
+    <header class="header" role="banner">
+        <div class="header-container">
+            <div class="logo">
+                <a class="logo-link" href="#home" aria-label="MTT Digital Studio home">
+                    <img src="assets/logo.jpeg" alt="MTT Digital Studio logo" class="logo-mark">
+                    <span class="sr-only">MTT Digital Studio</span>
+                </a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Navigation: Wayfinding -->
+    <nav class="nav" id="nav-menu" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content: Core Narrative -->
+    <main class="main" id="home" role="main">
+        <!-- Hero Section -->
+        <section class="hero" aria-label="Hero section with main message">
+            <div class="hero-content">
+                <h2>Full Stack Development Project 1</h2>
+                <p>Hi, I am Muhammad Talal Tariq, a BS Computer Science student at Air University with 2+ years of hands-on experience building production-ready full stack web and mobile applications.</p>
+                <p>I am currently working as a Mobile App Development Intern at DevelopersHub Corporation and a Full Stack Development Intern at DecodeLabs.</p>
+                <button class="cta-button" id="cta-button">View Contact</button>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="skills" aria-label="Technical skills grouped by category">
+            <div class="section-container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="cards-grid">
+                    <article class="card" aria-label="Frontend skills">
+                        <div class="card-icon">Frontend</div>
+                        <h3>Frontend</h3>
+                        <p>React.js, HTML5, CSS3, JavaScript (ES6+), Tailwind CSS, Responsive UI/UX.</p>
+                    </article>
+
+                    <article class="card" aria-label="Backend skills">
+                        <div class="card-icon">Backend</div>
+                        <h3>Backend</h3>
+                        <p>Node.js, Express.js, ASP.NET Core MVC (.NET 8), RESTful APIs, JWT authentication.</p>
+                    </article>
+
+                    <article class="card" aria-label="Programming languages">
+                        <div class="card-icon">Languages</div>
+                        <h3>Languages</h3>
+                        <p>Python, JavaScript, C#, C++, Java, Dart (Flutter).</p>
+                    </article>
+
+                    <article class="card" aria-label="Databases and deployment tools">
+                        <div class="card-icon">Tools</div>
+                        <h3>Databases and DevOps</h3>
+                        <p>SQL Server, Entity Framework Core, Git, GitHub, Streamlit Cloud, Netlify, Render, npm, Postman.</p>
+                    </article>
+
+                    <article class="card" aria-label="Mobile development skills">
+                        <div class="card-icon">Mobile</div>
+                        <h3>Mobile Development</h3>
+                        <p>Flutter and Dart for cross-platform mobile app development with REST API integration.</p>
+                    </article>
+
+                    <article class="card" aria-label="Specialized and design skills">
+                        <div class="card-icon">Special</div>
+                        <h3>Specialties and Design</h3>
+                        <p>Digital image processing using OpenCV and NumPy, steganography systems, game development in React, graphic and brand design.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="experience" aria-label="Professional summary and internships">
+            <div class="section-container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Professional Summary</h3>
+                        <p>Driven BS Computer Science student at Air University with proven ability to deliver complete solutions from database to UI across React.js, Node.js, Python, ASP.NET Core, and Flutter.</p>
+                        <ul class="feature-list">
+                            <li>✓ Mobile App Development Intern, DevelopersHub Corporation (April 2026 - Present)</li>
+                            <li>✓ Full Stack Development Intern, DecodeLabs (April 2026 - May 2026)</li>
+                            <li>✓ Software Developer and Digital Creator, Air University Kamra (July 2025 - August 2025)</li>
+                            <li>✓ Building production-quality web and mobile apps with clean, scalable code</li>
+                        </ul>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h4>2+</h4>
+                            <p>Years Practical Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>10+</h4>
+                            <p>Live Deployed Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>DHC-4402</h4>
+                            <p>DevelopersHub ID</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="projects" aria-label="Key portfolio projects">
+            <div class="section-container">
+                <h2 class="section-title">Key Projects</h2>
+                <div class="cards-grid">
+                    <article class="card project-card" aria-label="SkillNest learning platform project">
+                        <div class="card-icon">Project</div>
+                        <h3>SkillNest</h3>
+                        <p>Online learning platform using React.js, Node.js, SQL, and JWT with role-based auth, quizzes, progress tracking, and instructor analytics.</p>
+                        <div class="project-links">
+                            <a class="project-link primary" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_fullstackdevelopment-reactjs-nodejs-activity-7437737442306072576-2Pd6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer">LinkedIn Post</a>
+                        </div>
+                        <a class="card-link-overlay" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_fullstackdevelopment-reactjs-nodejs-activity-7437737442306072576-2Pd6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer" aria-label="Open SkillNest LinkedIn post"></a>
+                    </article>
+
+                    <article class="card project-card" aria-label="Arcade Zone game platform project">
+                        <div class="card-icon">Project</div>
+                        <h3>Arcade Zone</h3>
+                        <p>12-game responsive React.js platform with pure state management for game loops, collision handling, and frame-rate control.</p>
+                        <div class="project-links">
+                            <a class="project-link primary" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_reactjs-webdevelopment-javascript-activity-7436594330087313408-lgqv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer">LinkedIn Post</a>
+                        </div>
+                        <a class="card-link-overlay" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_reactjs-webdevelopment-javascript-activity-7436594330087313408-lgqv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer" aria-label="Open Arcade Zone LinkedIn post"></a>
+                    </article>
+
+                    <article class="card project-card" aria-label="Reels downloader project">
+                        <div class="card-icon">Project</div>
+                        <h3>Reels Downloader</h3>
+                        <p>Full stack downloader app for Instagram Reels, YouTube Shorts, and TikTok using React.js, Node.js, Express, yt-dlp, and FFmpeg.</p>
+                        <div class="project-links">
+                            <a class="project-link primary" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_reactjs-nodejs-fullstackdevelopment-activity-7430254538240057345-mlFs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer">LinkedIn Post</a>
+                            <a class="project-link secondary" href="https://github.com/235154-afk/reel-video-downloader" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                        <a class="card-link-overlay" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_reactjs-nodejs-fullstackdevelopment-activity-7430254538240057345-mlFs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer" aria-label="Open Reels Downloader LinkedIn post"></a>
+                    </article>
+
+                    <article class="card project-card" aria-label="Smart image enhancement project">
+                        <div class="card-icon">Project</div>
+                        <h3>Smart Image Enhancement</h3>
+                        <p>Python, OpenCV, and Streamlit application with histogram equalization, transforms, and interactive controls for image enhancement.</p>
+                        <div class="project-links">
+                            <a class="project-link primary" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_python-opencv-imageprocessing-activity-7446427454832943105-jMHQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer">LinkedIn Post</a>
+                            <a class="project-link secondary" href="https://github.com/235154-afk/SmartEnhancementApp" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a class="project-link secondary" href="https://smartenhancementapp-235154-muhammad-talal-tariq.streamlit.app/" target="_blank" rel="noopener noreferrer">Streamlit</a>
+                        </div>
+                        <a class="card-link-overlay" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_python-opencv-imageprocessing-activity-7446427454832943105-jMHQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer" aria-label="Open Smart Image Enhancement LinkedIn post"></a>
+                    </article>
+
+                    <article class="card project-card" aria-label="Image steganography project">
+                        <div class="card-icon">Project</div>
+                        <h3>Image Steganography App</h3>
+                        <p>Python, PIL, NumPy, and Streamlit app to hide and extract secret text or images using LSB-based techniques.</p>
+                        <div class="project-links">
+                            <a class="project-link primary" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_python-steganography-digitalimageprocessing-activity-7443556828027756545-B97f?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer">LinkedIn Post</a>
+                            <a class="project-link secondary" href="https://github.com/235154-afk/steganography-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a class="project-link secondary" href="https://steganography-app-muhammadtalaltariq-2355154.streamlit.app/" target="_blank" rel="noopener noreferrer">Streamlit</a>
+                        </div>
+                        <a class="card-link-overlay" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_python-steganography-digitalimageprocessing-activity-7443556828027756545-B97f?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer" aria-label="Open Image Steganography App LinkedIn post"></a>
+                    </article>
+
+                    <article class="card project-card" aria-label="Ramadan calendar project">
+                        <div class="card-icon">Project</div>
+                        <h3>Ramadan Calendar 2026</h3>
+                        <p>React.js and Tailwind CSS app with prayer timings API, live iftar countdown, city search, and full 30-day Ramadan schedule.</p>
+                        <div class="project-links">
+                            <a class="project-link primary" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_ramadan2026-webdevelopment-reactjs-activity-7431539345712529408-V0Vw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer">LinkedIn Post</a>
+                            <a class="project-link secondary" href="https://github.com/235154-afk/RAMADAN-CALENDAR" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                        <a class="card-link-overlay" href="https://www.linkedin.com/posts/muhammad-talal-tariq-02a629378_ramadan2026-webdevelopment-reactjs-activity-7431539345712529408-V0Vw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF1aZuIBRVeQsAupyHqZeKpSRHZLDLT94KA" target="_blank" rel="noopener noreferrer" aria-label="Open Ramadan Calendar 2026 LinkedIn post"></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="education" aria-label="Education and achievements">
+            <div class="section-container">
+                <h2 class="section-title">Education and Achievements</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Education</h3>
+                        <p>Bachelor of Science in Computer Science, Air University Kamra (September 2023 - September 2027 expected).</p>
+                        <ul class="feature-list">
+                            <li>✓ Relevant coursework: Data Structures, OOP, DIP, Web Technologies, Database Systems</li>
+                            <li>✓ Offer Letter: Mobile App Development Intern, DevelopersHub Corporation</li>
+                            <li>✓ Offer Letter: Full Stack Development Intern, DecodeLabs</li>
+                            <li>✓ Published e-book: Building Your Online Brand</li>
+                        </ul>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h4>BSCS</h4>
+                            <p>Air University</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>2027</h4>
+                            <p>Expected Graduation</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>10+</h4>
+                            <p>Academic and Personal Builds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section with Form -->
+        <section class="contact" id="contact" aria-label="Contact form for inquiries">
+            <div class="section-container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-layout">
+                    <article class="contact-card" aria-label="Personal contact information">
+                        <h3>Contact Information</h3>
+                        <p><strong>Name:</strong> Muhammad Talal Tariq</p>
+                        <p><strong>Phone:</strong> <a href="tel:+920326803816">+92 0326 8038160</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:235154@aack.au.edu.pk">235154@aack.au.edu.pk</a></p>
+                        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/muhammad-talal-tariq-02a629378" target="_blank" rel="noopener noreferrer">muhammad-talal-tariq-02a629378</a></p>
+                        <p><strong>GitHub:</strong> <a href="https://github.com/235154-afk" target="_blank" rel="noopener noreferrer">github.com/235154-afk</a></p>
+                        <p><strong>Streamlit:</strong> <a href="https://share.streamlit.io/user/235154-afk" target="_blank" rel="noopener noreferrer">share.streamlit.io/user/235154-afk</a></p>
+                        <p><strong>Location:</strong> Rawalpindi, Pakistan</p>
+                    </article>
+
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required aria-required="true">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+92 0326 8038160" required aria-required="true">
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message here..." required aria-required="true"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: Terminal Metadata -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Muhammad Talal Tariq</h4>
+                <p>&copy; 2026 Muhammad Talal Tariq. All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Phone: <a href="tel:+920326803816">+92 0326 8038160</a></p>
+                <p>Email: <a href="mailto:235154@aack.au.edu.pk">235154@aack.au.edu.pk</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/muhammad-talal-tariq-02a629378" target="_blank" rel="noopener noreferrer">Profile</a></p>
+                <p>GitHub: <a href="https://github.com/235154-afk" target="_blank" rel="noopener noreferrer">235154-afk</a></p>
+                <p>Streamlit: <a href="https://share.streamlit.io/user/235154-afk" target="_blank" rel="noopener noreferrer">Portfolio</a></p>
+                <p>Location: Rawalpindi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Built for DecodeLabs Batch 2026 using semantic HTML5, CSS3, and vanilla JavaScript with no frameworks.</p>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
